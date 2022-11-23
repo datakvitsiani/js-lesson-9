@@ -1,0 +1,42 @@
+body {
+    background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.747) 20%,
+    rgb(180, 0, 0) 45%,
+    rgb(216, 71, 4) 78%
+  )
+}
+.main-sect {
+    width: 100%;
+    max-width: 400px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: solid black;
+    border-radius: 20px;
+    margin-top: 40px;
+
+}
+
+.userinfo {
+    height: 50px;
+    width: 370px;
+    background-color: rgb(216, 71, 4);
+    border-radius: 10px;
+    border: solid black;
+    
+}
+.error-text {
+    color: red;
+}
+.submit-btn {
+    background-color: gray;
+    border-radius: 50px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+}
